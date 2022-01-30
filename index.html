@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>QuizzGame</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <button class="themes" data-info="anime">Anime</button>
+    <button class="themes" data-info="gaming">Gaming</button>
+    <button class="themes" data-info="cinema">Cinema</button>
+    <button class="themes" data-info="tech">Tech</button>
+    <p id="currentQuestion"></p>
+    <div>
+      <input type="radio" id="r1" name="idk" value="0" data-number='0'>
+      <label for="r1"></label>
+    </div>
+    <div>
+      <input type="radio" id="r2" name="idk" value="4" data-number='1'>
+      <label for="r2"></label>
+    </div>
+    <div>
+      <input type="radio" id="r3" name="idk" value="14"data-number='2'>
+      <label for="r3"></label>
+    </div>
+    <div>
+      <input type="radio" id="r4" name="idk" value="43"data-number='3'>
+      <label for="r4"></label>
+    </div>
+
+    <p id="score"></p>
+    <p id="page"></p>
+    <button id="load">next</button>
+    <button id="tryScore">Score</button>
+    <button id="replay">Replay</button>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
